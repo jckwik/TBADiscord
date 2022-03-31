@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "checkJs": true,
+        "target": "ES2021",
+        "moduleResolution": "node",
+        "module": "CommonJS",
+        "resolveJsonModule": true,
+        "sourceMap": true,
+        "outDir": "./build",
+    },
+    "include": ["./src"],
+}
