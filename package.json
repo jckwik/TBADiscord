@@ -17,7 +17,8 @@
     "axios": "^0.21.2",
     "dateformat": "^4.5.1",
     "discord-api-types": "^0.30.0",
-    "discord.js": "^13.6.0"
+    "discord.js": "^13.6.0",
+    "typed-rest-client": "^1.8.6"
   },
   "devDependencies": {
     "@types/dateformat": "^3.0.1",
