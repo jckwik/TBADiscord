@@ -6,8 +6,8 @@
   "configurations": [
     {
       "name": "Launch Program",
-      "program": "${workspaceFolder}/built/index.js",
-      "cwd": "${workspaceFolder}/fwScheduleBot/built",
+      "program": "${workspaceFolder}/build/index.js",
+      "cwd": "${workspaceFolder}/build",
       "request": "launch",
       "skipFiles": ["<node_internals>/**"],
       "type": "pwa-node",
@@ -16,8 +16,8 @@
     },
     {
       "name": "Deploy Commands",
-      "program": "${workspaceFolder}/built/deploy-commands.js",
-      "cwd": "${workspaceFolder}/fwScheduleBot/built",
+      "program": "${workspaceFolder}/build/deploy-commands.js",
+      "cwd": "${workspaceFolder}/build",
       "request": "launch",
       "skipFiles": ["<node_internals>/**"],
       "type": "node",

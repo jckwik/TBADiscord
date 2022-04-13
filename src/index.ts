@@ -7,6 +7,7 @@ import {
 } from "discord.js";
 const appconfig = require("dotenv").config();
 import * as fs from "fs";
+import { DiscordInterface } from "./common/bot";
 
 interface IClient extends Client {
   commands?: Collection<string, any>;
@@ -55,4 +56,5 @@ client.on("interactionCreate", async (interaction) => {
     }
   });
 
+const app = DiscordInterface.Instance(client);
 client.login(appconfig.parsed.BOT_TOKEN);
